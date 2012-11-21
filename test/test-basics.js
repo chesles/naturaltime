@@ -103,7 +103,7 @@ module.exports = {
         diff = result.getFullYear() - _test.start.getFullYear();
       }
       else {
-        // .valueOf returns nanoseconds
+        // .valueOf returns milliseconds, but we want to compare seconds
         _test.delta *= 1000;
       }
       test.equal(_test.delta, diff);
