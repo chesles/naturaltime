@@ -1,0 +1,27 @@
+{
+  "name": "naturaltime",
+  "version": "0.0.1",
+  "description": "Parse natural language times (\"in 10 minutes\", etc.)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "classifier": "~0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodeunit test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chesles/naturaltime"
+  },
+  "keywords": [
+    "time",
+    "natural",
+    "parse"
+  ],
+  "author": "John Chesley",
+  "license": "BSD"
+}
